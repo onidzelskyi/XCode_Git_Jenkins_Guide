@@ -17,6 +17,7 @@ typedef void (^ErrorBlock)(NSError *error);
              success:(GuildBlock)successBlock
                error:(ErrorBlock)errorBlock;
 
+
 -(void)characterWithName:(NSString *)characterName
                  onRealm:(NSString *)realmName
                  success:(CharacterBlock)successBlock
